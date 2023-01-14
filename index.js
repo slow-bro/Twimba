@@ -56,7 +56,7 @@ function handleTweetBtnClick(){
     if(tweetInput.value){
         tweetsData.unshift({
             handle: `@stevie`,
-            profilePic: `images/stevie.jpg`,
+            profilePic: `stevie.jpg`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
